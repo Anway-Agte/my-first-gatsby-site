@@ -2,14 +2,19 @@
 import { Link } from 'gatsby'
 import * as React from 'react'
 import Layout from '../components/layout'
+import {StaticImage} from 'gatsby-plugin-image'
 
-// Step 2: Define your component
 const IndexPage = () => {
   return (
     <main>
         <Layout title="Home">
-            <p>I'm at home page</p>
+              <p>I'm at home page</p>
+              <img
+                alt="Steve Smith"
+                src="https://www.cricket.com.au/~/-/media/News/2020/06/24SteveSmith.ashx?w=1600"
+              ></img>
         </Layout>
+
     </main>
   )
 }
